@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me's website</title>
+
+
+    <!--FAVICON-->
+    
+
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!--GOGGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <link rel="preload" as="image" href="images/hero-banner.png" media="min-width(768px)">
+    <link rel="preload" as="image" href="images/hero-banner-bg.png" media="min-width(768px)">
+    <link rel="preload" as="image" href="images/hero-bg.jpg">
+
+</head>
+<body>
+
+    <!--header-->
+    <header class="header" data-header>
+        <div class="container">
+            <h1>
+                <a href="index.html" class="logo">Me's Cooking<span class="span">.</span></a>
+            </h1>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    
+                    <li class="nav-item">
+                        <a href="index.html" class="navbar-link">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="menu.html" class="navbar-link">Menu</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <div class="header-btn-group">
+                <button class="search-btn" aria-label="Search" data-search-btn>
+                    <ion-icon name="search-outline"></ion-icon>
+                </button>
+                <a href="order.html">
+                    <button class="btn btn-hover">Order Now</button>
+                </a>
+
+                <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+                    <span class="line top"></span>
+                    <span class="line middle"></span>
+                    <span class="line bottom"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!--Search Box-->
+
+    <div class="search-container" data-search-container>
+        <div class="search-box">
+            <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..." class="search-input">
+
+            <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
+        </div>
+
+        <button class="search-close-btn" aria-label="Cancel search" data-search-cancel-btn></button>
+    </div>
+
+    
+
+
+    <main>
+        <article>
+
+            
+            
+            <!--FOOD MENU-->
+
+            <section class="section white food-menu" id="food-menu">
+                <div class="container">
+
+                    <h2 class="h2 section-title">
+                        <span class="span">Menu</span>
+                    </h2>
+
+                    <ul class="food-menu-list">
+
+                        <li>
+                            <div class="food-menu-card">
+                                <div class="card-banner">
+                                    <img src="images/Dumpling.jpg" width="300" height="300" loading="lazy" 
+                                    alt="Dumplings" class="w-100">                              
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Ratings:</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">Dumplings</h3>
+
+                                <div class="price-wrapper">
+
+                                    <p class="price-text">Price:</p>
+
+                                    <data class="price" value="3.00">5k UGX/pcs</data>
+                                                           
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+                                <div class="card-banner">
+                                    <img src="images/Goi Cuon.jpeg" width="300" height="300" loading="lazy" 
+                                    alt="Vietnamese spring roll" class="w-100">
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Ratings:</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">Vietnamese spring roll (Gỏi cuốn)</h3>
+
+                                <div class="price-wrapper">
+
+                                    <p class="price-text">Price:</p>
+
+                                    <data class="price" value="3.00">10k UGX/pcs</data>
+                                                           
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+                                <div class="card-banner">
+                                    <img src="images/Bun Bo.jpeg" width="300" height="300" loading="lazy" 
+                                    alt="Bun Bo" class="w-100">
+
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Ratings:</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">Vietnamese Beef Noodles Soup (Bún bò)</h3>
+
+                                <div class="price-wrapper">
+
+                                    <p class="price-text">Price:</p>
+
+                                    <data class="price" value="3.00">35k UGX/portion</data>
+                                                           
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+                                <div class="card-banner">
+                                    <img src="images/banh cuon.jpeg" width="300" height="300" loading="lazy" 
+                                    alt="Banh Cuon" class="w-100">
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Ratings:</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">Vietnamese Rice Rolls (Bánh Cuốn)</h3>
+
+                                <div class="price-wrapper">
+
+                                    <p class="price-text">Price:</p>
+
+                                    <data class="price" value="3.00">COMING SOON</data>
+                                                           
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+                                <div class="card-banner">
+                                    <img src="images/Banh Bot Loc La Chuoi.jpeg" width="300" height="300" loading="lazy" 
+                                    alt="Dumplings In Banana Leaves" class="w-100">
+
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Ratings:</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">Vietnamese Dumplings In Banana Leaves (Bánh bột lọc lá chuối)</h3>
+
+                                <div class="price-wrapper">
+
+                                    <p class="price-text">Price:</p>
+
+                                    <data class="price" value="3.00">5k UGX/pcs</data>
+                                                           
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+                                <div class="card-banner">
+                                    <img src="images/Calamari.jpeg" width="300" height="300" loading="lazy" 
+                                    alt="Calamari" class="w-100">
+                                   
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Ratings:</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">Calamari</h3>
+
+                                <div class="price-wrapper">
+
+                                    <p class="price-text">Price:</p>
+
+                                    <data class="price" value="3.00">35k UGX/6pcs</data>
+                                                           
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+                                <div class="card-banner">
+                                    <img src="images/banh bot loc.jpg" width="300" height="300" loading="lazy" 
+                                    alt="Banh Bot Loc" class="w-100">
+  
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Ratings:</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">Vietnamese Shrimp And Pork Dumplings (Bánh bột lọc)</h3>
+
+                                <div class="price-wrapper">
+
+                                    <p class="price-text">Price:</p>
+
+                                    <data class="price" value="3.00">20k UGX/10pcs</data>
+                                                           
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+                                <div class="card-banner">
+                                    <img src="images/cha gio.jpg" width="300" height="300" loading="lazy" 
+                                    alt="Cha Gio" class="w-100">
+  
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Ratings:</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">Vietnamese Fried Spring Rolls (Chả giò)</h3>
+
+                                <div class="price-wrapper">
+
+                                    <p class="price-text">Price:</p>
+
+                                    <data class="price" value="3.00">5k UGX/pcs</data>
+                                                           
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+                                <div class="card-banner">
+                                    <img src="images/Sup Cua.JPG" width="300" height="300" loading="lazy" 
+                                    alt="Sup Cua" class="w-100">
+  
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Ratings:</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">Crab Soup (Súp cua)</h3>
+
+                                <div class="price-wrapper">
+
+                                    <p class="price-text">Price:</p>
+
+                                    <data class="price" value="3.00">45k UGX/portion</data>
+                                                           
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+                                <div class="card-banner">
+                                    <img src="images/Fried Chiken.JPG" width="300" height="300" loading="lazy" 
+                                    alt="Fried Chicken" class="w-100">
+  
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Ratings:</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">Fried Chiken</h3>
+
+                                <div class="price-wrapper">
+
+                                    <p class="price-text">Price:</p>
+
+                                    <data class="price" value="3.00">35k UGX/6pcs</data>
+                                                           
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer class="footer">
+        <div class="footer-top" style="background-image: url(images/footer-illustration.png);">
+            <div class="container">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">Me's Cooking<span class="span">.</span></a>
+
+                    
+
+                    <ul class="social-list">
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-pinterest"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Contact Info</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list">Whatsapp: +256 761 288-584</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list">sweet.onion2011@gmail.com</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list">Kololo, Kampala, Uganda</p>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Order Time </p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list">Monday-Saturday</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list">Please Order 1 Week Ahead</p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright-text">
+                    &copy; 2023 <a href="#" class="copyright-link">Me's Cooking</a> All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--BACK TO TOP-->
+
+    <a href="#top" class="back-top-btn" aria-label="Back To Top" data-back-top-btn>
+        <ion-icon name="chevron-up"></ion-icon>
+    </a>
+
+
+
+    <script src="script.js" defer></script>
+
+    <!--IONICON-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me's website</title>
+
+
+    <!--FAVICON-->
+    
+
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!--GOGGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <link rel="preload" as="image" href="images/hero-banner.png" media="min-width(768px)">
+    <link rel="preload" as="image" href="images/hero-banner-bg.png" media="min-width(768px)">
+    <link rel="preload" as="image" href="images/hero-bg.jpg">
+
+</head>
+<body>
+
+    <!--header-->
+    <header class="header" data-header>
+        <div class="container">
+            <h1>
+                <a href="index.html" class="logo">Me's Cooking<span class="span">.</span></a>
+            </h1>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    
+                    <li class="nav-item">
+                        <a href="index.html" class="navbar-link">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="menu.html" class="navbar-link">Menu</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <div class="header-btn-group">
+                <button class="search-btn" aria-label="Search" data-search-btn>
+                    <ion-icon name="search-outline"></ion-icon>
+                </button>      
+
+                <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+                    <span class="line top"></span>
+                    <span class="line middle"></span>
+                    <span class="line bottom"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!--Search Box-->
+
+    <div class="search-container" data-search-container>
+        <div class="search-box">
+            <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..." class="search-input">
+
+            <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
+        </div>
+
+        <button class="search-close-btn" aria-label="Cancel search" data-search-cancel-btn></button>
+    </div>
+
+    
+
+
+    <main>
+        <article>
+            <section class="section white food-menu" id="food-menu">
+                <div class="container">
+
+                    <h2 class="h2 section-title">
+                        <span class="span">To order</span>
+                    </h2>
+                    <ul class="footer-list">
+                        <li>
+                            <p class="footer-list-title">
+                                I cater for party
+                            </p>
+                        </li>
+    
+                        <li>
+                            <p class="footer-list">Please order by contacting me through<br><span class="bold">Whatsapp: +256 761 288-584</span></p>
+                        </li>
+    
+                        <li>
+                            <p class="footer-list">
+                                <span class="bold">Notes:</span> Please order a week ahead when ordering a large portion for catering.
+                            </p>
+                        </li>
+    
+                        <li>
+                            <p class="footer-list"></p>
+                        </li>
+    
+                    </ul>
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer class="footer">
+        <div class="footer-top" style="background-image: url(images/footer-illustration.png);">
+            <div class="container">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">Me's Cooking<span class="span">.</span></a>
+
+                    
+
+                    <ul class="social-list">
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-pinterest"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Contact Info</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list">Whatsapp: +256 761 288-584</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list">sweet.onion2011@gmail.com</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list">Kololo, Kampala, Uganda</p>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Order Time </p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list">Monday-Saturday</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list">Please Order 1 Week Ahead</p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright-text">
+                    &copy; 2023 <a href="#" class="copyright-link">Me's Cooking</a> All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--BACK TO TOP-->
+
+    <a href="#top" class="back-top-btn" aria-label="Back To Top" data-back-top-btn>
+        <ion-icon name="chevron-up"></ion-icon>
+    </a>
+
+
+
+    <script src="script.js" defer></script>
+
+    <!--IONICON-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
