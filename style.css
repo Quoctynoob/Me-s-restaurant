@@ -20,7 +20,7 @@
     --onyx: hsl(0, 0%, 27%);
 
 
-    --ff-shadows-into-light: 'Shadows Into Light', cursive;
+    --ff-shadows-into-light: 'Shadows Into Light', 'cursive';
     --ff-roboto: 'Roboto', sans-serif;
     --ff-rubik: 'Rubik', sans-serif;
 
@@ -373,15 +373,6 @@ body.active {
     display: flex;
     align-items: center;
     gap: 20px;
-}
-
-.search-btn {
-    color: black;
-    font-size: 20px;
-}
-
-.search-btn ion-icon {
-    --ionicon-srtoke-width: 50px;
 }
 
 .nav-toggle-btn {
@@ -1410,6 +1401,5 @@ textarea.input-field {
         grid-template-columns: 1.fr 1fr 1fr 1fr;
     }
 }
-
 
 
