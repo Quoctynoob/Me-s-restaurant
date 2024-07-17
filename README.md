@@ -9,7 +9,6 @@ Welcome to the online menu website for Me's Restaurant! This website is a respon
 - [Usage](#usage)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
