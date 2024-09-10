@@ -2,13 +2,6 @@
 
 Welcome to the online menu website for Me's Restaurant! This website is a responsive, user-friendly platform that allows customers to view the restaurant's menu and place orders online.
 
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Usage](#usage)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
 
 ## Features
 
